@@ -22,7 +22,7 @@ const Projects = () => {
         </ProjectsH1 >
 
 <div className="projects">
-        <div class="project-card">
+        {/* <div class="project-card">
   <img src={astroscope} alt="Astroscope" />
   <div className="project-caption">
     <h2>Astroscope<span>HTML / CSS / JavaScript / Photoshop</span></h2>
@@ -67,7 +67,7 @@ const Projects = () => {
     <h2>RetailHut<span>HTML / CSS / JavaScript</span></h2>
     <p>The Store of Stores!</p><a href="https://retail-hut.herokuapp.com/" target="_blank"  rel="noreferrer" class="project-button">Demo</a><a href="https://github.com/graysonbloskas/retail-hut" target="_blank"  rel="noreferrer" class="project-button">Repo</a>
   </div>
-</div>
+// </div> */}
 
 </div>
         
