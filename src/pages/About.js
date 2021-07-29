@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero"
-
+import Bio from "../components/Bio"
 
 
 
@@ -12,7 +12,7 @@ function About() {
                 <h1> Brandi Murray</h1>
                 <h2>Full Stack Developer</h2>
             </Hero> 
-            
+            <Bio></Bio>
         </div>
     )
 }
