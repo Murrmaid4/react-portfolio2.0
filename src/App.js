@@ -1,20 +1,12 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import About from "./pages/About";
-import Projects from "./components/Projects"
-
-
+import Intro from './pages/Intro'
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <Header />
-      <About />
-     <Projects />
-     
-      <Footer />
+     <Intro/>
+   
     </Router>
   );
 }
