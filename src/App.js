@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./config/theme.js";
 
-import Intro from "./components/Intro/Intro";
 import About from "./components/About/About";
+import Intro from "./components/Intro";
+import Navbar from "./components/Navbar"
 import Work from "./components/Work/Work";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -18,6 +19,7 @@ function App() {
   return (
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <Router>
+        <Navbar />
         <Intro />
         <About />
         <Work />
