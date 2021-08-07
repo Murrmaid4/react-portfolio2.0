@@ -1,6 +1,6 @@
 export const lightTheme = {
-    body: '#fff',
-    fontColor: '#000'
+    body: 'hsl(340, 61%, 69%)',
+    fontColor: '#fff'
 } 
 
 export const darkTheme = {
