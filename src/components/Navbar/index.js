@@ -4,13 +4,15 @@ import {FiMoon} from 'react-icons/fi'
 import { VscFilePdf } from "react-icons/vsc";
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks,ThemeToggle, ResumeBtn, ResumeDwnld } from "./NavbarEl.js";
 
-const Header = () => {
+const Header = ({ toggle }) => {
   return (
     <>
       <Nav>
+        {/* ^^ this sets up the nav section in styled components first step for flex */}
         <NavbarContainer>
+          {/* this container sets up flex items positioning as well as length of nav elem */}
           <NavLogo to="/">BM </NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>

@@ -1,13 +1,10 @@
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
 import React, { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./config/theme.js";
 
-import About from "./components/About/About";
-import Intro from "./components/Intro";
-import Navbar from "./components/Navbar"
-import Work from "./components/Work/Work";
-import "./App.css";
-import { BrowserRouter as Router } from "react-router-dom";
+import Home from './pages'
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -19,10 +16,7 @@ function App() {
   return (
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <Router>
-        <Navbar />
-        <Intro />
-        <About />
-        <Work />
+       <Home/>
       </Router>
     </ThemeProvider>
   );

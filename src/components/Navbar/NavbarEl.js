@@ -2,12 +2,12 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
+
 export const Nav = styled.nav`
   background: #ffffff00;
   height: 80px;
   display: flex;
   align-items: center;
- 
   font-size: 1rem;
   position: sticky;
   top: 0;
@@ -25,7 +25,7 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
+  max-width: 1800px;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -94,7 +94,6 @@ export const ThemeToggle = styled.button`
 export const ResumeBtn = styled.nav`
 display: flex;
 align-items: center;
-
 
 
 @media screen and (max-width: 768px) {
