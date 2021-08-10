@@ -1,19 +1,19 @@
 import React from "react";
-import {Wrapper, IntroContainer, IntroAnimation} from "./Intro.js";
+import {VideoBg, IntroContainer, IntroBg, Caption} from "./Intro.js";
+import Video from '../../assets/hero2.mp4';
 
 const Intro = () => {
   return (
-    <>
-      <Wrapper>
+   
         <IntroContainer>
-          <IntroAnimation>
-            Hello,
-            <br />
-            My Name is Brandi.
-          </IntroAnimation>
+          <IntroBg>
+           
+            <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
+           
+            
+          </IntroBg>
         </IntroContainer>
-      </Wrapper>
-    </>
+ 
   );
 };
 
