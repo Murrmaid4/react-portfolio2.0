@@ -11,7 +11,7 @@ const Header = ({ toggle }) => {
         {/* ^^ this sets up the nav section in styled components first step for flex */}
         <NavbarContainer>
           {/* this container sets up flex items positioning as well as length of nav elem */}
-          <NavLogo to="/">BM </NavLogo>
+          <NavLogo to="/">B</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
