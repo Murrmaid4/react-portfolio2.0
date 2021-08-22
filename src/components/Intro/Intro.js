@@ -34,10 +34,7 @@ object-fit: cover;
 
 `
 
-export const Caption = styled.h1`
-color: #fff;
-font-size: 64px;
-`
+
 
 
 export const IntroContent = styled.div`
@@ -53,6 +50,7 @@ export const CaptionH1 = styled.h1`
 color: #fff;
 font-size: 72px; 
 text-align: center;
+text-shadow: 2px 2px 4px #000000;
 
 @media screen and (max-width: 768px) {
 
@@ -69,6 +67,7 @@ margin-top: 24px;
 color: #fff;
 font-size: 32px;
 text-align: center;
+text-shadow: 2px 2px 4px #000000;
 
 @media screen and (max-width: 768px) {
 

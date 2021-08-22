@@ -20,6 +20,14 @@ top: ${({ isOpen })=>( isOpen ? '0': '-100%')};
 
 export const CloseIcon = styled(FaTimes)`
 color: #fff; 
+
+
+&:hover{
+    color:#000;
+    transition: 0.2s ease-in-out;
+
+}
+
 `
 
 export const Icon = styled.div`
@@ -47,7 +55,7 @@ color: #fff;
 cursor: pointer;
 
 &:hover{
-    color:#01bfc1;
+    color:#000;
     transition: 0.2s ease-in-out;
 
 }
