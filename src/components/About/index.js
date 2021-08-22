@@ -25,7 +25,7 @@ function About() {
             <Column1>
               <TextWrapper>
                 <TopLine>Who am I?</TopLine>
-                <Heading>Brandi Murray</Heading>
+                <Heading>Brandi Murray <br/> Full Stack Developer</Heading>
                 <Subtitle>An ambitious and dedicated Full Stack Developer with an eye for detail and passion for learning. <br/>When I'm not coding you can find me binge-watching Hulu, baking desserts, or raising my two weiner <s>dogs</s> sons. </Subtitle>
               </TextWrapper>
             </Column1>

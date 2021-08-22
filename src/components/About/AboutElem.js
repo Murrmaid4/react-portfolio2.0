@@ -23,11 +23,11 @@ export const AbRow = styled.div`
 display: grid;
 grid-auto-columns: minmax(auto, 1fr);
 align-items: center;
-grid-template-areas: ${({imgStart})=> (imgStart ? `'col2 col1'`: `'col1 col2'` )};
+grid-template-areas:  'col1 col2';
 
 
 @media screen and (max-width: 768px){
-    grid-template-areas: ${({imgStart})=> (imgStart ? `'col1 col2'` : `'col1 col1' 'col2 col2'` )}
+    grid-template-areas:  'col1 col1' 'col2 col2'; 
  
 }
 `
@@ -57,21 +57,25 @@ text-transform: uppercase;
 letter-spacing: 1.4px;
 line-height: 16px;
 font-weight: 700;
+margin-bottom: 16px;
 `
 
-export const Heading = styled.h1`
+export const Heading = styled.h2`
 font-size: 48px; 
+margin-bottom: 24px;
+line-height: 1.1;
+font-weight: 600;
 
-@media screen and (max-width: 480px){
+@media screen and (max-width:668px) {
 
-font-size: 32px; 
-
+font-size: 32px;
 }
 `
 
 export const Subtitle = styled.p`
 font-size: 16px; 
 color: #000;
+
 `
 
 export const ImgWrap = styled.div`

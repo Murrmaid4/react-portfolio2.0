@@ -68,6 +68,11 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   height: 80px;
+
+  &:hover{
+
+    border-bottom: 4px solid #EE8C82;
+  }
 `;
 
 export const NavLinks = styled(LinkS)`
