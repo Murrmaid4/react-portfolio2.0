@@ -3,7 +3,7 @@ import About from "../components/About/";
 import Intro from "../components/Intro";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
-import Work from "../components/Work/Work";
+import Work from "../components/Work/";
 
 const Home = () => {
     const [isOpen, setIsOpen] =  useState(false)
