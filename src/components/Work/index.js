@@ -1,10 +1,10 @@
 import React from "react";
 
-import { CardImg1 } from "../../assets/astroscope.png";
+import  CardImg1 from "../../assets/astroscope.png";
 
-import { CardImg2 } from "../../assets/da-beatz.jpg";
+import  CardImg2 from "../../assets/da-beatz.jpg";
 
-import { CardImg3 } from "../../assets/retailhut.jpg";
+import  CardImg3 from "../../assets/retailhut.jpg";
 
 import {
   WorkContainer,
