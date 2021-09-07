@@ -4,6 +4,7 @@ import Intro from "../components/Intro";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Work from "../components/Work/";
+import Footer from "../components/Footer/";
 
 const Home = () => {
     const [isOpen, setIsOpen] =  useState(false)
@@ -19,6 +20,7 @@ const Home = () => {
       <Intro />
       <About />
       <Work />
+      <Footer />
     </>
   );
 };

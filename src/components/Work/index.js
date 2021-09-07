@@ -22,24 +22,24 @@ const Work = () => {
       <WorkH1>the Work</WorkH1>
       <WorkWrapper>
         <WorksCard>
-          <CardImg src={CardImg1} />
-          <WorkTitle>Astroscope</WorkTitle>
+        <WorkTitle>Astroscope</WorkTitle>
+          <CardImg src={CardImg1} /> 
           <WorkP>
             Web app that displays the user's daily horoscope and a snapshot of
             the constellation based on their location and the date.
           </WorkP>
         </WorksCard>
         <WorksCard>
+        <WorkTitle>DaBeatz.</WorkTitle>
           <CardImg src={CardImg2} />
-          <WorkTitle>DaBeatz.</WorkTitle>
           <WorkP>
             A playlist creator and song/artist database searcher using the mvc
             structure and Handlebars as the view engine.
           </WorkP>
         </WorksCard>
         <WorksCard>
+        <WorkTitle>Retailhut</WorkTitle>
           <CardImg src={CardImg3} />
-          <WorkTitle>Retailhut</WorkTitle>
           <WorkP>
             An ecommerce app for small businesses using React, Javascript, Node and more!
           </WorkP>

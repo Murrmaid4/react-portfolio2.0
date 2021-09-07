@@ -1,39 +1,35 @@
 import styled from "styled-components";
 
 export const WorkContainer = styled.div`
- height: 800px;
+ height: 1200px;
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- background: #010606;
+ background: #EE8C82;
 
 
  @media screen and (max-width:768px) {
 
-    height: 1100px;
+    height: 1600px;
 
  }
 
-@media screen and (max-width:480px){
-    height: 1300px;
-}
+
  `
 
 
 export const WorkWrapper = styled.div`
 margin: 0 auto;
 display: grid; 
-grid-template-columns: 1fr 1fr 1fr; 
+grid-template-columns: 1fr 1fr; 
 align-items: center;
 grid-gap: 16px;
 padding:0 50px; 
 
-@media screen and (max-width:1000px){
-grid-template-columns: 1fr 1fr ;
-}
 
-@media screen and (max-width:768px){
+
+@media screen and (max-width:998px){
 grid-template-columns: 1fr;
 padding: 0 20px;
 
@@ -43,10 +39,10 @@ padding: 0 20px;
 export const WorksCard = styled.div`
 background: #fff; 
 display: flex;
-flex-direction: flex-start;
+flex-direction: column;
 align-items: center;
 border-radius: 10px;
-max-height: 340px; 
+max-height: 500px; 
 padding: 30px; 
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 transition: all 0.2s ease-in-out;
@@ -60,8 +56,8 @@ transition: all 0.2s ease-in-out;
 `
 
 export const CardImg = styled.img` 
-height: 160px;
-width: 160px; 
+height: 250px;
+width: 60%; 
 margin-bottom: 10px;
 `
 
@@ -77,7 +73,8 @@ margin-bottom: 64px;
 `
 
 export const WorkTitle = styled.h2`
-font-size: 1rem;
+font-size: 1.8rem;
+letter-spacing: .5rem;
 margin-bottom: 10px; 
 `
 
