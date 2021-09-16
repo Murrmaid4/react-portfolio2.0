@@ -44,6 +44,13 @@ const Work = () => {
             An ecommerce app for small businesses using React, Javascript, Node and more!
           </WorkP>
         </WorksCard>
+        <WorksCard>
+        <WorkTitle>Fitness Tracker</WorkTitle>
+          <CardImg />
+          <WorkP>
+            An ecommerce app for small businesses using React, Javascript, Node and more!
+          </WorkP>
+        </WorksCard>
       </WorkWrapper>
     </WorkContainer>
   );

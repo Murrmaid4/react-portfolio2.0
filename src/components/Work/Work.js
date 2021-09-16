@@ -6,14 +6,15 @@ export const WorkContainer = styled.div`
  flex-direction: column;
  justify-content: center;
  align-items: center;
- background: #EE8C82;
+ background: hsl(17, 90%, 77%);
 
 
- @media screen and (max-width:768px) {
+ @media screen and (max-width:998px) {
 
-    height: 1600px;
+height: 2000px;
 
- }
+}
+ 
 
 
  `
@@ -51,6 +52,7 @@ transition: all 0.2s ease-in-out;
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+   
 }
 
 `
