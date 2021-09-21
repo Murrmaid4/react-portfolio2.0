@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bc14368b.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.ce28a6e5.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.ce28a6e5.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.b0dd2939.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.b0dd2939.js.map",
-    "static/js/2.dcbe736b.chunk.js": "/react-portfolio/static/js/2.dcbe736b.chunk.js",
-    "static/js/2.dcbe736b.chunk.js.map": "/react-portfolio/static/js/2.dcbe736b.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "static/css/main.bc14368b.chunk.css.map": "/react-portfolio/static/css/main.bc14368b.chunk.css.map",
-    "static/js/2.dcbe736b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.dcbe736b.chunk.js.LICENSE.txt",
-    "static/media/astroscope.89a67420.png": "/react-portfolio/static/media/astroscope.89a67420.png",
-    "static/media/computer.438663c6.svg": "/react-portfolio/static/media/computer.438663c6.svg",
-    "static/media/da-beatz.3feea845.jpg": "/react-portfolio/static/media/da-beatz.3feea845.jpg",
-    "static/media/hero2.79666911.mp4": "/react-portfolio/static/media/hero2.79666911.mp4",
-    "static/media/retailhut.e47f5f31.jpg": "/react-portfolio/static/media/retailhut.e47f5f31.jpg"
+    "main.css": "/react-portfolio2.0/static/css/main.bc14368b.chunk.css",
+    "main.js": "/react-portfolio2.0/static/js/main.ce28a6e5.chunk.js",
+    "main.js.map": "/react-portfolio2.0/static/js/main.ce28a6e5.chunk.js.map",
+    "runtime-main.js": "/react-portfolio2.0/static/js/runtime-main.0ab6fa1b.js",
+    "runtime-main.js.map": "/react-portfolio2.0/static/js/runtime-main.0ab6fa1b.js.map",
+    "static/js/2.3448c1f4.chunk.js": "/react-portfolio2.0/static/js/2.3448c1f4.chunk.js",
+    "static/js/2.3448c1f4.chunk.js.map": "/react-portfolio2.0/static/js/2.3448c1f4.chunk.js.map",
+    "index.html": "/react-portfolio2.0/index.html",
+    "static/css/main.bc14368b.chunk.css.map": "/react-portfolio2.0/static/css/main.bc14368b.chunk.css.map",
+    "static/js/2.3448c1f4.chunk.js.LICENSE.txt": "/react-portfolio2.0/static/js/2.3448c1f4.chunk.js.LICENSE.txt",
+    "static/media/astroscope.89a67420.png": "/react-portfolio2.0/static/media/astroscope.89a67420.png",
+    "static/media/computer.438663c6.svg": "/react-portfolio2.0/static/media/computer.438663c6.svg",
+    "static/media/da-beatz.3feea845.jpg": "/react-portfolio2.0/static/media/da-beatz.3feea845.jpg",
+    "static/media/hero2.79666911.mp4": "/react-portfolio2.0/static/media/hero2.79666911.mp4",
+    "static/media/retailhut.e47f5f31.jpg": "/react-portfolio2.0/static/media/retailhut.e47f5f31.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0dd2939.js",
-    "static/js/2.dcbe736b.chunk.js",
+    "static/js/runtime-main.0ab6fa1b.js",
+    "static/js/2.3448c1f4.chunk.js",
     "static/css/main.bc14368b.chunk.css",
     "static/js/main.ce28a6e5.chunk.js"
   ]
