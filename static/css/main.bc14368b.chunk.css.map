@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,EACE,qBAAsB,CACtB,SAAU,CACV,QAAS,CACT,gCACF","file":"main.bc14368b.chunk.css","sourcesContent":["*{\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n  font-family: 'Poppins', sans-serif;\n}\n"]}
